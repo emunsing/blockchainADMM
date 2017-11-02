@@ -1,0 +1,177 @@
+{
+  "contract_name": "AggSimple",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "x",
+      "outputs": [
+        {
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_z",
+          "type": "int256"
+        }
+      ],
+      "name": "setZ",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "rho",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_y",
+          "type": "int256"
+        }
+      ],
+      "name": "setY",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "B",
+      "outputs": [
+        {
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_x",
+          "type": "int256"
+        }
+      ],
+      "name": "setX",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "updateY",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "y",
+      "outputs": [
+        {
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "c",
+      "outputs": [
+        {
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "z",
+      "outputs": [
+        {
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "A",
+      "outputs": [
+        {
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6000808055600281815560019182556003805460ff19169091179055600481905560055563ee6b28006006555b5b6102bd8061004d6000396000f300606060405236156100ac5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630c55699c81146100b157806313248cfd146100d657806320aba08b146100ee5780632c245c031461011757806332e7c5bf1461012f578063a0fc499414610154578063a2f473b71461016c578063a56dfe4a14610181578063c3da42b8146101a6578063c5d7802e146101cb578063f446c1d0146101f0575b600080fd5b34156100bc57600080fd5b6100c4610215565b60405190815260200160405180910390f35b34156100e157600080fd5b6100ec60043561021b565b005b34156100f957600080fd5b610101610224565b60405160ff909116815260200160405180910390f35b341561012257600080fd5b6100ec60043561022d565b005b341561013a57600080fd5b6100c4610236565b60405190815260200160405180910390f35b341561015f57600080fd5b6100ec60043561023c565b005b341561017757600080fd5b6100ec610245565b005b341561018c57600080fd5b6100c4610279565b60405190815260200160405180910390f35b34156101b157600080fd5b6100c461027f565b60405190815260200160405180910390f35b34156101d657600080fd5b6100c4610285565b60405190815260200160405180910390f35b34156101fb57600080fd5b6100c461028b565b60405190815260200160405180910390f35b60005481565b60018190555b50565b60035460ff1681565b60028190555b50565b60055481565b60008190555b50565b60065460015460055402600054600454020103600360009054906101000a900460ff1660ff1602600254016002819055505b565b60025481565b60065481565b60015481565b600454815600a165627a7a72305820b4388aa85b9770b5731c878a0271a0ce4caba6559f4ef3ce08169e857f99b0940029",
+  "networks": {
+    "1508699858723": {
+      "events": {},
+      "links": {},
+      "address": "0x9e0408a919f2bebc9f8c7768c8efd5243d4b0944",
+      "updated_at": 1508733121146
+    },
+    "1508734087317": {
+      "events": {},
+      "links": {},
+      "address": "0x5d2d2c4d359216f27c5e29e37ea2b9a1e6ae6a0d",
+      "updated_at": 1508777797673
+    },
+    "1509240583448": {
+      "events": {},
+      "links": {},
+      "address": "0x760b1885c1cf45417de331c0292a19b319c1c8d2",
+      "updated_at": 1509343864506
+    },
+    "1509589970107": {
+      "events": {},
+      "links": {},
+      "address": "0xa5ab9b0b411ee608d4aecffaeea8d653aa6f61ad",
+      "updated_at": 1509591283451
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1509591283451
+}
